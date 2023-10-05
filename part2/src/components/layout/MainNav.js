@@ -6,8 +6,8 @@ function MainNavigation(){
             <nav>
                 <ul>
                     <li><Link to='/'>All Meetups</Link></li>
+                    <li><Link to='/newmeet'>Add New Meetup</Link></li>
                     <li><Link to='/favorites'>Favorites</Link></li>
-                    <li><Link to='/newmeet'>New Meetups</Link></li>
                 </ul>
             </nav>
     </header>
