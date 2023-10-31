@@ -1,10 +1,13 @@
 import { Route, Routes } from "react-router-dom";
-
 import Allmeetups from "./pages/Allmeetups";
 //import Favorites from "./pages/Favorites";
 import Newmeetuppage from "./pages/Newmeetup";
 import Favorites from "./pages/Favorites";
 import Layout from "./components/layout/layout";
+
+require('newrelic')
+
+
 
 function App() {
   return (
