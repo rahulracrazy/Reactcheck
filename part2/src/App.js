@@ -5,8 +5,7 @@ import Newmeetuppage from "./pages/Newmeetup";
 import Favorites from "./pages/Favorites";
 import Layout from "./components/layout/layout";
 
-require('newrelic')
-
+var newrelic = require('newrelic');
 
 
 function App() {
